@@ -20,6 +20,8 @@ BuildVersion:   19E287
 Run: `./install.sh`
 Check the [`install.sh`](./install.sh) script to see what is being installed.
 
+This script updates all the submodules.
+
 ## Build Smoosh
 
 Run: `chmod + x ./build.sh` then `./build.sh`

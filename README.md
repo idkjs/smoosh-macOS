@@ -1,4 +1,6 @@
-# Build Smoosh on MacOS 
+# [Smoosh](https://github.com/mgree/smoosh)
+
+# Building Smoosh on MacOS 
 
 ## My Env
 

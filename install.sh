@@ -1,9 +1,13 @@
 #!/bin/sh
 
-brew install autoconf libtool pkg-config libffi
+brew install autoconf libtool pkg-config libffi opam
 
 # alias glibtoolize to libtoolize 
+# tldr - Overwrite an existing symbolic to point to a different file:
 ln -sf "$(command -v glibtoolize)" /usr/local/bin/libtoolize
+
+# opam setup
+# takes a while if its the first install of an ocaml switch
 opam init
 
 opam switch 4.07.0
